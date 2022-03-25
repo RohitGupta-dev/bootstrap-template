@@ -1,0 +1,383 @@
+
+
+body{
+    margin: 0px;
+}
+
+header{
+    background-image: url(../Image/bg.jpg);
+    background-size: cover;
+    float: left;
+    width: 100%;
+}
+
+nav>.logo{
+    float: left;
+    width: 30%;
+    
+}
+nav>.logo>img{
+    
+    height: 100px;
+}
+nav>.bars{
+    width: 70%;
+    float: left;
+    line-height: 6;
+
+}
+nav>.bars>a{
+    padding: 25px;
+    color:white;
+    text-decoration: none;
+}
+nav>.bars>button{
+    background-color: rgb(153, 4, 4);
+    color:white;
+    padding: 10px;
+    margin-left: 50px;
+}
+.banner>section,.section1{
+    float: left;
+    width: 33%;
+}
+.banner>.section1{
+    padding:50px 0px 100px 0px;
+    color: white;
+}
+.section1>hr{
+width:91px;
+margin: 0px;
+}
+.section1>h1{
+margin: 2px;
+}
+.section1>button{
+background-color: transparent;
+color:rgb(153, 4, 4);
+padding: 10px;
+border-color: rgb(153, 4, 4);
+}
+main{
+    float: left;
+    min-width:100%;
+}
+.main-body{
+    /* float: left; */
+    width: 70%;
+    margin: auto;
+}
+.main-body>.discover{
+    margin: 10px;
+}
+.main-body>.discover>h1{
+    margin: 10px;
+    padding: 10px;
+    color: rgb(66, 65, 64);
+}
+h1{
+    color:rgb(66, 65, 64);
+}
+.discover-section{
+margin: 10px;
+}
+.discover-section>.discover-sub{
+margin: 10px;
+float: left;
+width: 28%;
+padding: 10px;
+
+}
+.discover-sub-left{
+    float: left;
+    width:20%;
+    background-color: red;
+    margin-top: 26px;
+
+         border-radius: 50%;/*
+        margin-top: 77px; */
+
+    /* padding: 47px 0px; */
+}
+
+.discover-sub-left>.fa, .fas {
+    font-weight: 900;
+    padding: 10px;
+    font-size: xx-large;
+}
+.discover-sub-right{
+    float: left;
+    width: 70%;
+    padding: 10px;
+}
+.discover-sub-right>p,h4{
+    margin: 0px;
+}
+.rohit{
+    float: left;
+    width: 25%;
+}
+.greate{
+    width: 100%;
+    float: left;
+    background-color: rgb(172, 173, 173);
+}
+.greate>.grate-section{
+    width: 70%;
+    margin: auto;
+}
+.greate>.grate-section>.grate-section-sub{
+    float: left;
+    width: 33%;
+    text-align: center;
+}
+.greate>.grate-section>.grate-section-sub>h1{
+margin: 0px;   
+color: rgb(146, 11, 33);
+}
+.greate>.grate-section>.grate-section-sub>button{
+margin: 10px;   
+background-color: rgb(146, 11, 33);
+color: white;
+padding: 10px;
+}
+.form{
+    width: 100%;
+    float: left;
+    margin: 10px;
+}
+.form-section{
+    width: 70%;
+    margin: auto;
+    background-color: rgb(0, 0, 14);
+}
+.form-section>h1{
+text-align: center;
+    color:white;
+}
+.form-section>h2{
+text-align: left;
+    color:white;
+}
+.form-section>.form-section-sub{
+    float: left;
+    width: 33%;
+}
+.fa-arrow-right-long:before, .fa-long-arrow-right:before {
+    content: "\f178";
+    /* margin-left: 5px; */
+    margin: 7px;
+}
+.form-section>form{
+    padding: 10px;
+    
+}
+input[type='text']{
+    width: 89%;
+    /* min-height: 20px; */
+    /* width: 100%; */
+    margin: 10px;
+    padding: 10px;
+}
+.form-section-sub>form>button{
+    background-color:rgb(146, 11, 33);
+    color:white;
+    padding: 10px;
+    float: right;
+}
+.fa-magnifying-glass:before, .fa-search:before {
+    content: "\f002";
+    margin: 10px;
+}
+.event{
+    margin: 10px;
+    float: left;
+    width: 100%;
+}
+.event>.event-section{
+    width: 70%;
+    margin: auto;
+}
+.event>.event-section>.event-section-sub{
+    width: 30%;
+    float: left;
+}
+.event>.event-section>.event-section-sub>img{
+    width: 100%;
+    padding: 10px 10px 0px 10px;
+    
+}
+.event-sub-sec{
+    float: left;
+    width: 20%;
+    color:white;
+    background-color: rgb(5, 46, 5);
+    padding: 4px;
+    /* margin: 2px; */
+}
+.event-sub-sec1{
+    float: left;
+    width: 70%;
+}
+.event-sub-sec>h1{
+    margin: 0px;
+    
+}
+.event-sub-sec1>p{
+    margin: 2px;
+    
+}
+.latest{
+    width: 100%;
+    float: left;
+}
+.latest>.latest-section{
+    width: 70%;
+    margin: auto;
+}
+.latest>.latest-section>.icon{
+float: right;
+margin-top: -23px;
+}
+.latest-section-sub{
+    padding: 10px;
+    float: left;
+    width: 20%;
+    background-color: rgb(151, 151, 151);
+    background-image:linear-gradient(rgb(53, 53, 53),#FFF);
+    /* padding: 10px; */
+    margin: 10px;
+}
+.latest-section-sub>img{
+   border-radius: 50%;
+}
+.latest-section-sub>h3{
+
+    color:rgb(87, 2, 16);
+    text-align: center;
+}
+.feature{
+    width:100%
+}
+.feature-sub{
+    float: left;
+    background-color: rgb(2, 32, 58);
+    color:white;
+    width: 40%;
+}
+
+.feature-sub1{
+    float: left;
+    background-color: rgb(224, 224, 224);
+    width: 60%;
+
+}
+
+.sec-sub{
+    float: left;
+    padding: 10px;
+}
+.sec-sub>img{
+   border-radius: 50%;
+}
+.feature-sub1>h1{
+    padding: 10px;
+}
+.feature-sub1>button{
+    padding: 10px;
+    background-color: rgb(201, 5, 31);
+    color: white;
+    margin: 12px 0px 0px 12px;
+}
+.feature-sub1>button:hover{
+    background-color: rgb(44, 44, 44);
+    color: white;
+}
+.counter{
+    width: 70%;
+    margin: auto;
+}
+.counter>.counter-sub{
+    float: left;
+    border:1px solid rgb(114, 113, 113);
+    margin: 10px;
+}
+.counter>.counter-sub>.sub-sec{
+    float: left;
+}
+.counter>.counter-sub>.sub-sec{
+    float: left;
+    padding: 20px 10px 0px 0px;
+}
+.counter>.counter-sub>.sub-sec>span{
+padding: 10px;}
+
+.counter>.counter-sub>.sub-sec>.fa-user-friends:before, .fa-user-group:before {
+    content: "\f500";
+    float: left;
+    font-size: 36px;
+    padding: 10px;
+}
+.feature-profession{
+    width: 70%;;
+    margin: auto;
+}
+.feature-profession-sub{
+    float: left;
+    width: 48%;
+    /* margin: 10px; */
+}
+
+.subSection{
+    float: left;
+    width: 44%;
+    margin: 10px;}
+.feature-sub-sec{
+    float: left;
+    width:50%;
+}
+.feature-sub-sec1{
+    float: left;
+    width:50%;
+
+}
+.feature-sub-sec1>p{
+    padding: 40px 0px 0px;
+}
+footer{
+    float: left ;
+width: 100%;
+background-color: rgb(0, 35, 88);
+}
+.section-footer{
+    float: left;
+    width: 20%;
+    padding: 20px;
+}
+.section-footer>.logo{
+    float: left;
+    width: 50%;
+    color: white;
+}
+.section-footer>p{
+    padding: 5px;
+    color: white;
+}
+.section-footer>h4,h1{
+    padding: 5px;
+    color: white;
+}
+.section-footer>button{
+    padding: 10px;
+    margin: 10px;
+    background-color: rgb(190, 8, 8);
+    color: white;
+}
+.event-section>h1{
+background-color: rgb(0, 35, 88);
+
+}
+.latest-section>h1{
+color: rgb(0, 35, 88);
+    
+}

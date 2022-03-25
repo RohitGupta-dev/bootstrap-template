@@ -1,0 +1,240 @@
+/* *{
+    margin: 0px;
+} */
+
+body{
+    margin: 0px;
+}
+
+header{
+    background-image: url(../Image/bg.jpg);
+    background-size: cover;
+    float: left;
+   max-width: 100%;
+}
+
+nav>.logo{
+    float: left;
+   max-width: 30%;
+    
+}
+nav>.logo>img{
+    
+    height: 100px;
+}
+nav>.bars{
+   max-width: 70%;
+    float: left;
+    line-height: 6;
+
+}
+nav>.bars>a{
+    padding: 25px;
+    color:white;
+    text-decoration: none;
+}
+nav>.bars>button{
+    background-color: rgb(153, 4, 4);
+    color:white;
+    padding: 10px;
+    margin-left: 50px;
+}
+.banner>section,.section1{
+    float: left;
+   max-width: 33%;
+}
+.banner>.section1{
+    padding:50px 0px 100px 0px;
+    color: white;
+}
+.section1>hr{
+width:91px;
+margin: 0px;
+}
+.section1>h1{
+margin: 2px;
+}
+.section1>button{
+background-color: transparent;
+color:rgb(153, 4, 4);
+padding: 10px;
+border-color: rgb(153, 4, 4);
+}
+main{
+    float: left;
+    min-width:100%;
+}
+.main-body{
+    /* float: left; */
+   max-width: 70%;
+    margin: auto;
+}
+.main-body>.discover{
+    margin: 10px;
+}
+.main-body>.discover>h1{
+    margin: 10px;
+    padding: 10px;
+}
+.discover-section{
+margin: 10px;
+}
+.discover-section>.discover-sub{
+margin: 10px;
+float: left;
+width: 28%;
+padding: 10px;
+
+}
+.discover-sub-left{
+    float: left;
+   max-width:20%;
+    background-color: red;
+    margin-top: 26px;
+
+         border-radius: 50%;/*
+        margin-top: 77px; */
+
+    /* padding: 47px 0px; */
+}
+
+.discover-sub-left>.fa, .fas {
+    font-weight: 900;
+    padding: 10px;
+    font-size: xx-large;
+}
+.discover-sub-right{
+    float: left;
+   max-width: 70%;
+    padding: 10px;
+}
+.discover-sub-right>p,h4{
+    margin: 0px;
+}
+.rohit{
+    float: left;
+   max-width: 25%;
+}
+.greate{
+   max-width: 100%;
+    float: left;
+    background-color: rgb(172, 173, 173);
+}
+.greate>.grate-section{
+   max-width: 70%;
+    margin: auto;
+}
+.greate>.grate-section>.grate-section-sub{
+    float: left;
+   max-width: 33%;
+    text-align: center;
+}
+.greate>.grate-section>.grate-section-sub>h1{
+margin: 0px;   
+color: rgb(146, 11, 33);
+}
+.greate>.grate-section>.grate-section-sub>button{
+margin: 10px;   
+background-color: rgb(146, 11, 33);
+color: white;
+padding: 10px;
+}
+.form{
+   max-width: 100%;
+    float: left;
+    margin: 10px;
+}
+.form-section{
+   max-width: 70%;
+    margin: auto;
+    background-color: rgb(0, 0, 14);
+}
+.form-section>h1{
+text-align: center;
+    color:white;
+}
+.form-section>h2{
+text-align: left;
+    color:white;
+}
+.form-section>.form-section-sub{
+    float: left;
+   max-width: 33%;
+}
+.fa-arrow-right-long:before, .fa-long-arrow-right:before {
+    content: "\f178";
+    /* margin-left: 5px; */
+    margin: 7px;
+}
+.form-section>form{
+    padding: 10px;
+    
+}
+input[type='text']{
+   max-width: 89%;
+    /* min-height: 20px; */
+    /*max-width: 100%; */
+    margin: 10px;
+    padding: 10px;
+}
+.form-section-sub>form>button{
+    background-color:rgb(146, 11, 33);
+    color:white;
+    padding: 10px;
+    float: right;
+}
+.fa-magnifying-glass:before, .fa-search:before {
+    content: "\f002";
+    margin: 10px;
+}
+.event{
+    margin: 10px;
+    float: left;
+   max-width: 100%;
+}
+.event .event-section{
+   max-width: 70%;
+    margin: auto;
+}
+.event .event-section .event-section-sub{
+   max-width: 30%;
+    float: left;
+}
+.event .event-section .event-section-sub img{
+    max-width: 100%;
+    
+}
+.event-sub-sec{
+    float: left;
+   max-width: 20%;
+    color:white;
+    background-color: rgb(5, 46, 5);
+    padding: 4px;
+    /* margin: 2px; */
+}
+.event-sub-sec1{
+    float: left;
+   max-width: 70%;
+}
+.event-sub-sec>h1{
+    margin: 0px;
+    
+}
+.event-sub-sec1>p{
+    margin: 2px;
+    
+}
+.latest{
+   max-width: 100%;
+    float: left;
+}
+.latest>.latest-section{
+   max-width: 70%;
+    margin: auto;
+}
+.latest>.latest-section>.icon{
+    float: right;
+    MARGIN-TOP: -23PX;
+
+}
+

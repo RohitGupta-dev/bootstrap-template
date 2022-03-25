@@ -1,0 +1,184 @@
+body{
+    margin: 0px;
+}
+
+header{
+    background-image: url(../Image/bg.jpg);
+    background-size: cover;
+    float: left;
+    width: 100%;
+}
+
+nav>.logo{
+    float: left;
+    width: 30%;
+    
+}
+nav>.logo>img{
+    
+    height: 100px;
+}
+nav>.bars{
+    width: 70%;
+    float: left;
+    line-height: 6;
+
+}
+nav>.bars>a{
+    padding: 25px;
+    color:white;
+    text-decoration: none;
+}
+nav>.bars>button{
+    background-color: rgb(153, 4, 4);
+    color:white;
+    padding: 10px;
+    margin-left: 50px;
+}
+.banner>section,.section1{
+    float: left;
+    width: 33%;
+}
+.banner>.section1{
+    padding:50px 0px 100px 0px;
+    color: white;
+}
+.section1>hr{
+width:91px;
+margin: 0px;
+}
+.section1>h1{
+margin: 2px;
+}
+.section1>button{
+background-color: transparent;
+color:rgb(153, 4, 4);
+padding: 10px;
+border-color: rgb(153, 4, 4);
+}
+main{ 
+   
+    width: 70%;
+    margin: auto;
+}
+main>h1,h2,h3,h4,h5,h6{
+    margin: 0px;
+
+}
+main>.heading{
+    padding: 10px;
+    color: rgb(88, 87, 87);
+    text-decoration: underline;
+}
+main>.sectin1,.section2,.section3{
+    float:left;
+    width: 33%;
+}
+main>.sectin1>h4{
+    padding: 100px;
+}
+
+
+.fa, .fas {
+    border-radius: 50%;
+    font-weight: 900;
+    padding: 35px;
+    font-size: xx-large;
+    background-color: red;
+    float: left;
+}
+p{
+    margin: 0px;
+}
+.section-new {
+    margin: 10px 0px;
+    float: left;
+    /* width:25%; */
+    width: 30%;
+    padding: 10px;
+    margin: auto;
+}
+
+.section-new .par {
+    text-align: center;
+}
+
+.section-new button {
+    margin: 20px;
+}
+
+.form .heading {
+    float: left;
+    width: 60%;
+}
+
+.heading .heading-sec {
+    float: left;
+    width: 50%;
+}
+
+.form .study-form {
+    float: left;
+    width: 40%;
+}
+
+.study-form .study {
+    width: 100%;
+    margin: 30px 0px;
+    padding: 10px 0px;
+}
+
+.study-form p {
+    float: right;
+}
+
+.event .section {
+    float: left;
+    width: 33%;
+}
+
+.event>.section>.sub-sec {
+    float: left;
+    width: 15%;
+    padding: 10px;
+    background-color: green;
+    color: white;
+}
+
+.event>.section>.sub-sec1 {
+    float: left;
+    width: 71%;
+    /* padding: 0px 10px; */
+}
+.event>.section>.section-img {
+   
+    padding: 0px 10px;
+}
+
+.event>.section>.sub-sec>h1 {
+    /* padding: 0px 10px; */
+
+    display: flex;
+    margin: 0px;
+}
+
+.latest .image {
+    float: left;
+    width: 22%;
+    padding: 10px;
+}
+
+.latest>.image>img {
+    border-radius: 50%;
+    padding: 30px;
+}
+
+.feature-course>.section {
+    float: left;
+    width: 30%;
+}
+
+.feature-course>.section1 {
+    float: left;
+    width: 70%;
+}
